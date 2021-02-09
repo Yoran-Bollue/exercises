@@ -1,1 +1,28 @@
 # Write your code here
+def card_value(string):
+    if string==2:
+        return 2
+    elif string==3:
+        return 3
+    elif string==4:
+        return 4
+    elif string==5:
+        return 5
+    elif string==6:
+        return 6
+    elif string==7:
+        return 7
+    elif string==8:
+        return 8
+    elif string==9:
+        return 9
+    elif string==10:
+        return 10
+    elif string=="Jack":
+        return 11
+    elif string=="Queen":
+        return 12
+    elif string=="King":
+        return 13
+    elif string=="Ace":
+        return 1
